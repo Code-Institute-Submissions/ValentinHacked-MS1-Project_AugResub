@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Yusei+Magic&display=swap');
 
+html{
+  scroll-behavior: smooth;
+}
+
+
 body{
     overflow-x: hidden;
     font-family: 'Montserrat', sans-serif;
@@ -68,10 +73,20 @@ margin-right: 0px!important;
 }
 
 .btn-lg{
-    border-width: medium;
-    border-radius: 0;
     padding: 0.6rem 1.3rem;
-    font-size: 1.2rem;
+    border-style: none;
+    border-radius: 0;
+    background-color: #dddddd;
+    color: #590202;
+    transition: 0.5s ease-out;
+    box-shadow: 0.1rem 0.1rem 0.8rem black;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.btn-lg:hover{
+    background-color: #590202;
+    color: #435560;
 }
 
 .fixed-background {
@@ -131,3 +146,54 @@ margin-right: 0px!important;
 color: #FF4000;
 }
 /*Nav Css*/
+
+/*Classes Css*/
+#classes{
+    background-color: #E5E4E2;
+    padding: 1.8rem 0;
+}
+
+#classes h1{
+    font-weight: 700;
+    font-size: 2.7rem;
+    font-style: italic;
+    padding-bottom: 0.3rem;
+}
+
+.title{
+    padding: 1.6rem 0;
+}
+
+.title p{
+    font-size: 1.2rem;
+}
+
+.card-body{
+    box-shadow:0.1rem 0.1rem 0.8rem black;
+}
+
+
+
+.card{
+    margin: 1.2rem 0.6rem;
+    height: 100%;
+    
+}
+
+.card-body{
+    color: #FF4000;
+    font-size: 0.9rem;
+    margin-top: auto;
+    font-weight: 600;
+}
+
+.card-text-schedule{
+     font-size: 1.2rem;
+     color: #333333;
+}
+
+.card-text-schedule span{
+    color: #FF4000;
+    text-shadow:0.1rem 0.1rem 0.6rem black;
+}
+/*Classes Css*/
