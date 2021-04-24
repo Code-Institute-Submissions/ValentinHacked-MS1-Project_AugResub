@@ -77,7 +77,7 @@ margin-right: 0px!important;
     border-style: none;
     border-radius: 0;
     background-color: #dddddd;
-    color: #590202;
+    color: #333333;
     transition: 0.5s ease-out;
     box-shadow: 0.1rem 0.1rem 0.8rem black;
     font-size: 1.3rem;
@@ -180,6 +180,8 @@ color: #FF4000;
     
 }
 
+
+
 .card-body{
     color: #FF4000;
     font-size: 0.9rem;
@@ -197,3 +199,254 @@ color: #FF4000;
     text-shadow:0.1rem 0.1rem 0.6rem black;
 }
 /*Classes Css*/
+
+/*PRICING CSS */
+
+#price{
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    background: linear-gradient(to right, rgb(35, 37, 38, 0.8), rgb(65, 67, 69, 0.8)),
+    url(/assets/images/equipment3.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.single-pricing{
+    position: relative;
+    text-align: center;
+    background-color: #435560;
+    color: #e3e3e3;
+    margin: 0 1.2rem ;
+    padding: 1.8rem;
+    border-radius: 0.2rem;
+    box-shadow: 0.1rem 0.1rem 0.8rem black;
+}
+
+.head-text{
+    background-color: transparent;
+    border-bottom: 0;
+    padding: 1rem;
+    border-radius: 0.2rem;
+}
+
+.head-text h3{
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    margin: 0;
+    text-transform: uppercase;
+    color: #ff6200;
+}
+
+.price-area .price-area span{
+    font-weight: 600;
+}
+.price-area{
+    position: relative;
+    padding: 0.6rem 0;
+    color: #fff;
+    font: 300;
+    font-size: 4rem;
+    line-height: 1;
+}
+
+.price-area span.duration{
+    display: block;
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 1.2rem 0 0 0.2rem;
+    text-align: center;
+    color: #ff6200;
+    letter-spacing: 0.1rem;
+    color: black;
+}
+
+.price-area::after, .feature-area{
+    border: 0;
+}
+
+.feature-area ul{
+    margin: 0;
+    padding: 0.9rem 0;
+    list-style: none;
+}
+
+.feature-area li{
+    padding: 0.4rem 0;
+    font-size: 0.9rem;
+}
+
+.btn-area{
+    padding: 0.9rem 1.8rem;
+}
+
+.btn-area a{
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    white-space: nowrap;
+    margin: 0.3rem;
+    padding: 0 1.3rem;
+    font-size: 0.9rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    background-color: #ff6200;
+    color: #e3e3e3;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    border: none;
+}
+
+.label-area{
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    top: -0.1rem;
+    right: -0.1rem;
+    text-align:center;
+    border-top-right-radius: 0.2rem;
+    background-color: #ff6200;
+}
+
+.label-area span{
+    position: absolute;
+    top: 1.3rem;
+    right: 0.2rem;
+    text-transform: uppercase;
+    transform: rotate(45deg);
+    font-weight: 700;
+    font-size: 0.6rem;
+    color: #e3e3e3;
+    letter-spacing: 0.1rem;
+}
+
+.label-area:before{
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5rem 0 0 5rem;
+    border-color: transparent transparent transparent #435560;
+}
+
+@media (max-width: 767px){
+    .head-text h3{
+        font-size: 1.2rem;
+    }
+
+    .single-pricing{
+        margin-bottom: 1.8rem;
+    }
+}
+
+/*PRICING CSS */
+
+/*CONTACT CSS */
+#contact{
+    background: linear-gradient(to right, rgb(35, 37, 38, 0.8), rgb(65, 67, 69, 0.8)),
+    url(images/hero-img.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 2.5rem 0;
+}
+
+#contact h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.contact-form{
+    max-width: 37.5rem;
+    margin: auto;
+    padding: 0 0.6rem;
+    overflow: hidden;
+}
+
+.contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 1rem 0;
+    border: 0;
+    background:black;
+    padding: 1.2rem 2.5rem;
+    outline: none;
+    color: #435560;
+    font-weight: bold;
+    transition: 0.5s ease-out;
+}
+
+.contact-form-text:hover{
+    box-shadow: 0 0 0.6rem 0.2rem #BF0B0B;
+}
+
+textarea .contact-form-text{
+    resize: none;
+    height: 7.5rem;
+}
+
+.contact-form-btn{
+    float: right;
+    border: 0;
+    background: #435560;
+    color: #BF0B0B;
+    padding: 0.8rem 2.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s ease-out;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.contact-form-btn:hover{
+    background: #BF0B0B;
+    color: #435560;
+}
+/*CONTACT CSS */
+
+/*FOOTER CSS */
+footer img{
+    width: 3.5rem;
+    margin: 1.5rem 0;
+}
+
+footer{
+    background: linear-gradient(#FF4000, #333333);
+    color: #e3e3e3;
+    padding-top: 2.5rem ;
+    padding-bottom: 2.5rem ;
+}
+
+footer a{
+    color: #e3e3e3;
+}
+
+footer a i{
+    font-size: 1.6rem;
+    margin: 1.2rem 0.5rem 0 0;
+    transition: 0.5s ease-out;
+}
+
+footer a i:hover{
+ color: #FF4000 !important;
+}
+
+hr.socket{
+    width:90% ;
+    border-top: 0.1rem solid #333333;
+    margin-top: 2rem;
+}
+
+.name{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #e3e3e3;
+    font-style: italic;
+    text-shadow: 0.1rem 0.1rem 0.8rem black; ;
+}
+/*FOOTER CSS */
