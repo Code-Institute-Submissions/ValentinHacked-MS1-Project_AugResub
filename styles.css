@@ -410,43 +410,67 @@ textarea .contact-form-text{
 /*CONTACT CSS */
 
 /*FOOTER CSS */
-footer img{
-    width: 3.5rem;
-    margin: 1.5rem 0;
-}
 
 footer{
-    background: linear-gradient(#FF4000, #333333);
-    color: #e3e3e3;
-    padding-top: 2.5rem ;
-    padding-bottom: 2.5rem ;
+    background:url("images/footer-img.jpg");
+    background-attachment: fixed;
+    position: absolute;
+    color: #435560;
+    width: 100vw;   
 }
 
-footer a{
-    color: #e3e3e3;
+.socials{
+    padding: 0;
 }
 
-footer a i{
-    font-size: 1.6rem;
-    margin: 1.2rem 0.5rem 0 0;
+h4{
+    padding: 0.9rem 0;
+}
+
+.socials li{
+    display: inline-block;
+    background-color: #E5E4E2;
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 1.8rem;
+    padding: 0;
+}
+
+.socials li a i{
+    padding-top: 0.3rem;
+    color: #E5E4E2;
+    transition: 0.5s ease-out;
+    font-size: 1.5rem;
+}
+
+.socials li a:hover{
+    color: #FF4000;
+}
+
+footer .links ul{
+    list-style-type: none;
+}
+
+.footer .links li a{
+    color: #E5E4E2;
     transition: 0.5s ease-out;
 }
 
-footer a i:hover{
- color: #FF4000 !important;
+.footer .links li a:hover{
+    text-decoration: none;
+    color: #FF4000;
 }
 
-hr.socket{
-    width:90% ;
-    border-top: 0.1rem solid #333333;
-    margin-top: 2rem;
-}
-
-.name{
+.footer .location i{
     font-size: 1.2rem;
-    font-weight: bold;
-    color: #e3e3e3;
-    font-style: italic;
-    text-shadow: 0.1rem 0.1rem 0.8rem black; ;
+}
+
+.footer .copyright p{
+    font-size: 1.3rem;
+    text-shadow:0 0 0.6rem 0.2rem;
+    border-top: 1px solid #333333;
+    border-bottom: 1px solid #333333;
 }
 /*FOOTER CSS */
