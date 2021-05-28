@@ -54,7 +54,7 @@ body {
     width: 100%;
     height: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0),
-            rgba(255, 64, 0, 0.4) 20%,
+            rgb(255, 64, 0, 0.4) 20%,
             rgba(0, 0, 0, 1)),
         url("images/hero-img.jpg");
     background-repeat: no-repeat;
@@ -70,7 +70,7 @@ body {
     position: absolute;
     top: 38%;
     z-index: 1;
-    color: #E5E4E2;
+    color: #999999;
     text-transform: uppercase;
     font-size: 3.8rem;
     letter-spacing: 0.2rem;
@@ -93,7 +93,7 @@ body {
 }
 
 .btn-lg:hover {
-    background-color: #590202;
+    background-color: rgb(255, 64, 0);
     color: #435560;
 }
 
@@ -164,9 +164,19 @@ body {
     padding: 1.8rem 0;
 }
 
+.title h1, p{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #434343;
+}
+
+.title p{
+    color: #FF4000;
+}
+
 .card {
     color: #faf9f9;
-    background-image: url(images/trainer1.jpg);
+    background-image: url(images/weight-lifting.jpg);
     background-size: cover;
     background-position: center center;
     padding: 10rem 0 0;
@@ -179,15 +189,15 @@ body {
 }
 
 .kickbox {
-    background-image: url(images/kickboxing-img.jpg);
+    background-image: url(images/kickboxing.jpg);
 }
 
 .trx {
-    background-image: url("images/trx -mg.jpg");
+    background-image: url("images/trx.jpg");
 }
 
 .yoga {
-    background-image: url(images/yoga-img.jpg);
+    background-image: url(images/yoga.jpg);
 }
 
 .card:hover,
@@ -264,18 +274,24 @@ body {
 
 .button {
     cursor: pointer;
-    display: inline-block;
     text-decoration: none;
-    color: #faf9f9;
-    background-color: #ff971d;
-    padding: 0.5rem 1.1rem;
-    transition: 0.5s ease-in-out;
-    border-radius: 0.25rem;
+    color: #FF4000;
+    border: 2px solid #FF4000;
+    display: block;
+    padding: 0.6rem 0;
+    margin: 0.6rem 0;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    transition: 0.5s ease-out;
+    text-decoration: none;
 }
+
+
 
 .button:hover,
 .button:focus {
-    background-color: #e1701a;
+    color: #111111;
+    background: #FF4000;
 }
 
 /*Classes Css*/
