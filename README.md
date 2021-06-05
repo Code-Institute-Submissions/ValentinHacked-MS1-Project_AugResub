@@ -1,45 +1,77 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Alpha Fitness
 
-Welcome ValentinHacked,
+AlphaFitness.com is the website that advertises the Apha Fitness gym business in Leeds UK.
+The website targets to inform potential clients about the overall Gym, including classes, facilities, opening and closing times etc.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
 
-## Gitpod Reminders
+![Desktop Mockup](https://github.com/ValentinHacked/MS1-Project/blob/master/Desktop-Mockup.pdf)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+![Mobile Mockup](https://github.com/ValentinHacked/MS1-Project/blob/master/Mobile-Mockup.pdf)
 
-`python3 -m http.server`
+## Features
 
-A blue button should appear to click: _Make Public_,
+###Existing features
 
-Another blue button should appear to click: _Open Browser_.
+- __Navigation Bar__
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
+ Featured at the top of the page, the fully responsive navigation bar includes links to every section on the website, allowing the user to navigate with ease trough each of them
+![Nav Bar](https://github.com/ValentinHacked/MS1-Project/blob/master/Navbar.PNG)
 
-Another blue button should appear to click: _Open Browser_.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- __The landing page image__
 
-## Updates Since The Instructional Video
+  - The landing includes an image with an overlayed quote, for the purpose of motivating the user. 
+  - This section introduces the user to AlphaFitness with an eye catching image to grab their attention
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+![Landing Page](https://github.com/ValentinHacked/MS1-Project/blob/master/landing.PNG)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+- __Classes Section__
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+  - The classes section will allow the user to see the available classes as well as the schedule for each of them. 
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+![Classes Section](https://github.com/ValentinHacked/MS1-Project/blob/master/Classes.PNG)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+ __Facilities section__
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+  - This section will allow the user to see the facilities that members can have access to. 
+  - This section will be updated as the gym and its facilities keep improving. 
 
----
+![Facilities](https://github.com/ValentinHacked/MS1-Project/blob/master/Facilities.PNG)
 
-Happy coding!
+
+ __About section__
+
+ 
+ - This section shows the objective of Alpha Fitness Team.
+
+ ![About](https://github.com/ValentinHacked/MS1-Project/blob/master/About.PNG)
+
+ __Experiences section__
+
+ - This section shows the user some words from a few of our clients, hoping on motivating the user to join too.
+  
+  ![Experiences](https://github.com/ValentinHacked/MS1-Project/blob/master/testimonials.PNG)
+
+  __Pricing section__
+
+  - This section contains a variety of memberships for the user to choose from depending on the personal preference.
+
+ ![Pricing](https://github.com/ValentinHacked/MS1-Project/blob/master/pricing.PNG)
+
+
+  __Contact section__
+
+  -This section contains an eye catching, intuitive contact form to help the user get in touch with Alpha Fitness Team.
+
+
+  __Footer section__
+
+  
+  - The footer section includes links to the relevant social media sites for Alpha Fitness, location and schedule times.
+
+![Footer](https://github.com/ValentinHacked/MS1-Project/blob/master/footer.PNG)
+
+
