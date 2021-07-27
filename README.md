@@ -3,9 +3,9 @@
 
 [View the live project here.](https://valentinhacked.github.io/MS1-Project/)
 
-This is the main website for the business Alpha Fitness. It is to be responsibe and accessible on a range of devices, aking it easy to navigate for potential clients and members as well.
+This is the main website for the business Alpha Fitness. It is to be responsible and accessible on a range of devices, making it easy to navigate for potential clients and members as well.
 
-<h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2> /* Imaginea ta aici */
+<h2 align="center"><img src="images/"></h2> /* Imaginea ta aici */
 
 ## User Experience (UX)
 
@@ -21,14 +21,14 @@ This is the main website for the business Alpha Fitness. It is to be responsibe 
 
     -  #### Returning Visitor Goals
 
-     As a Frequent User, I want to check to see if there are any news regarding possible changes of the classes schedule, prices, addition of new facilities or new events.
+     As a Frequent User, I want to check to see if there is any news regarding possible changes in the classes schedule, prices, addition of new facilities, or new events.
 
 -  ### Design
     -  #### Colour Scheme
         -   The two main colours used are black and orange.
 
     -   #### Typography
-        -   The Ubuntu font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly.Ubuntu is a modern, strong looking font that is perfectly suited for a website like AlphaFitness
+        -   The Ubuntu font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Ubuntu is a modern, strong-looking font that is perfectly suited for a website like AlphaFitness
 
      -   #### Imagery
         -   Imagery is important. The large, landing background image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
@@ -71,7 +71,7 @@ This is the main website for the business Alpha Fitness. It is to be responsibe 
 1. [Git:](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
-    - GitHub is used to store the projects code after being pushed from Git.
+    - GitHub is used to store the project's code after being pushed from Git.
 
 1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
@@ -80,7 +80,7 @@ This is the main website for the business Alpha Fitness. It is to be responsibe 
     - Pexels was used to get the images for each section of the website.
 
 2. [Adobe Color and ColorHunt:](https://color.adobe.com/create/color-wheel)(https://colorhunt.co/?source=pwa)
-     - Adobe Color and ColorHunt were used to generate the color pallete for the website. 
+     - Adobe Color and ColorHunt were used to generate the color palette for the website. 
 
 
 ## Testing
@@ -103,28 +103,28 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
  2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
 
-        1. The site has been designed to be fluid and never to entrap the user. At the top of the wbsite there is a clean navigation bar, each link describes what the section they will end up at clearly.
+        1. The site has been designed to be fluid and never to entrap the user. At the top of the website, there is a clean navigation bar, each link describes the section they will end up at clearly.
         2. On the Contact Us section, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
 
   3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
 
-     1. The user can  scroll to the bottom of the website to locate social media links in the footer.
+     1. The user can scroll to the bottom of the website to locate social media links in the footer.
 
 -   #### Returning Visitor Goals
 
-     1. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
+     1. As a Returning Visitor, I want to find the best way to get in contact with the organization with any questions I may have.
 
         1. The navigation bar clearly highlights the "Contact Us" Page.
-        2. Here they can fill out the form on the page or are told that alternatively they can message the organisation on social media.
-        3. The footer contains links to the organisations Facebook, Twitter and Instagram page as well as the organization's email.
+        2. Here they can fill out the form on the page or are told that alternatively, they can message the organization on social media.
+        3. The footer contains links to the organization's Facebook, Twitter, and Instagram page as well as the organization's email.
         4. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
-        5. The email button is set up to automatically open up your email app and autofill there email address in the "To" section.
+        5. The email button is set up to automatically open up your email app and autofill their email address in the "To" section.
 
 
 ### Further Testing
 
--   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+-   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge, and Safari browsers.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhone X.
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
@@ -136,8 +136,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 The project was deployed to GitHub Pages using the following steps...
 
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/ValentinHacked/MS1-Project)
-2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
+2. At the top of the Repository (not the top of the page), locate the "Settings" button on the menu.
+    - Alternatively, click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
 5. The page will automatically refresh.
@@ -148,7 +148,7 @@ The project was deployed to GitHub Pages using the following steps...
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/ValentinHacked/MS1-Project)
-2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+2. At the top of the Repository (not top of page) just above the "Settings" button on the menu, locate the "Fork" button.
 3. You should now have a copy of the original repository in your GitHub account.
 
 ### Making a Local Clone
@@ -196,6 +196,6 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Acknowledgements
 
--   My Mentor Caleb Mbakwe for all the helpful feedback and sugesstions offered throughout the development process.
+-   My Mentor Caleb Mbakwe for all the helpful feedback and suggestions offered throughout the development process.
 
 -   Tutor support at Code Institute for their support.
