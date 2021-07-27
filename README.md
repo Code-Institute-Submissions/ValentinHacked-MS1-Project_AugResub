@@ -5,8 +5,7 @@
 
 This is the main website for the business Alpha Fitness. It is to be responsible and accessible on a range of devices, making it easy to navigate for potential clients and members as well.
 
-<h2 align="center"><img src="images/"></h2> /* Imaginea ta aici */
-
+<h2 align="center"><img src="images/photo-cover-readme.PNG"></h2> 
 ## User Experience (UX)
 
 -   ### User stories
@@ -43,6 +42,13 @@ This is the main website for the business Alpha Fitness. It is to be responsible
 
 -   Responsive on mobile and tablet view
 
+     - Desktop
+    <img src="images/Alpha-Fitness-Desktop-View.PNG"> 
+     - Mobile
+    <img src="images/Alpha-Fitness-Mobile-view.PNG">
+    - Tablet
+    <img src="images/Alpha-Fitness-Tablet-View.PNG">
+
 -   Interactive elements
 
 ## Technologies Used
@@ -66,7 +72,7 @@ This is the main website for the business Alpha Fitness. It is to be responsible
 1. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 
-. [jQuery:](https://jquery.com/)
+1. [jQuery:](https://jquery.com/)
     - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
 1. [Git:](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
@@ -87,6 +93,8 @@ This is the main website for the business Alpha Fitness. It is to be responsible
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
+- Lighthouse report <img src="images/LightHouse-Result.PNG">
+
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fvalentinhacked.github.io%2FMS1-Project%2F)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalentinhacked.github.io%2FMS1-Project%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
@@ -94,17 +102,17 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   #### First Time Visitor Goals
 
-    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the AlphaFitness gym.
+1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the AlphaFitness gym.
 
 
-    2. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the section of their choice. Underneath there is a Hero Image with Text and a "Join Us" button.
-    3. The main points are made immediately with the hero image
-    4. The user has two options, click the call to action buttons or scroll down, both of which will lead to the same place, to learn more about the AlphaFitness gym.
+    1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the section of their choice. Underneath there is a Hero Image with Text and a "Join Us" button.
+    2. The main points are made immediately with the hero image
+    3. The user has two options, click the call to action buttons or scroll down, both of which will lead to the same place, to learn more about the AlphaFitness gym.
 
  2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
 
-        1. The site has been designed to be fluid and never to entrap the user. At the top of the website, there is a clean navigation bar, each link describes the section they will end up at clearly.
-        2. On the Contact Us section, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
+    1. The site has been designed to be fluid and never to entrap the user. At the top of the website, there is a clean navigation bar, each link describes the section they will end up at clearly.
+     2. On the Contact Us section, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
 
   3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
 
