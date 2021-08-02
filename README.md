@@ -34,9 +34,9 @@ This is the main website for the business Alpha Fitness. It is created to be res
 
 *   ### Wireframes
 
-    -   Desktop Wireframe - [View](https://github.com/ValentinHacked/MS1-Project/blob/master/Desktop-Mockup.pdf)
+    -   Desktop Wireframe - [View](https://github.com/ValentinHacked/MS1-Project/blob/master/../../../../../../../Mockups/Desktop-Mockup.pdf)
 
-    -   Mobile Wireframe - [View](https://github.com/ValentinHacked/MS1-Project/blob/master/Mobile-Mockup.pdf)
+    -   Mobile Wireframe - [View](https://github.com/ValentinHacked/MS1-Project/blob/master/../../../../../../Mockups/Mobile-Mockup.pdf)
     
 ## Features
 
