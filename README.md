@@ -3,7 +3,7 @@
 
 [View the live project here.](https://valentinhacked.github.io/MS1-Project/)
 
-This is the main website for the business Alpha Fitness. It is to be responsible and accessible on a range of devices, making it easy to navigate for potential clients and members as well.
+This is the main website for the business Alpha Fitness. It is created to be responsible and accessible on a range of devices, making it easy to navigate for potential clients and members as well.
 
 <h2 align="center"><img src="images/photo-cover-readme.PNG"></h2> 
 ## User Experience (UX)
